@@ -1,1 +1,17 @@
 # ComputerSecurity
+
+CSE 5400 - Course focuses on Cryptography, Buffer Overflow, Memory Security, etc
+
+## Homeworks:
+
+[HW1](./HW1): OpenSSL Encryption, Decryption, Hashing, and digital signatures.
+[HW2](./HW2/Solution/Solution.md): Using Crypto libraries to implement hash functions and Salting.
+  - md5, sha256, sha512
+  - Guessing the passwords using brute force methods.
+  - Calculating the time it takes to crack passwords using different hash functions.
+
+
+## Projects
+
+[Project 1](./Project1/Report.md): MD5 Collision Attack
+[Project 2](./Project2/Report.md): Buffer Overflow Attack
