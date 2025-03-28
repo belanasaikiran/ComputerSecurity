@@ -12,7 +12,7 @@ CSE 5400 - Course focuses on Cryptography, Buffer Overflow, Memory Security, etc
   - md5, sha256, sha512
   - Guessing the passwords using brute force methods.
   - Calculating the time it takes to crack passwords using different hash functions.
-  - 
+
 [HW3](./HW3/Solution.md): Play with File Permissions and SetUID
 
 ## Projects
