@@ -21,6 +21,6 @@ CSE 5400 - Course focuses on Cryptography, Buffer Overflow, Memory Security, etc
 
 [Project 2](./Project2/Report.md): Buffer Overflow Attack
 
-[Project 3](./Project3/Report.md): Buffer Overflow Attack
+[Project 3](./Project3/Report.md): Dirty COW Attack
 
-[Project 4](./Project4/README.md): Buffer Overflow Attack
+[Project 4](./Project4/README.md): Implementing the Trusted Platform Module (TPM 2.0)
