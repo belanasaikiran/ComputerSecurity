@@ -1,5 +1,6 @@
+-> [Check the Project Description](./project_description.md)
 
-Reference: 
+Reference:
 
 ```embed
 title: "GitHub - nokia/TPMCourse"
@@ -175,7 +176,7 @@ Examining the Quote:
 
 We can see the following matches:
 - **Type 8018** → quote type
-- **PCR selection** → SHA1, PCR 23    
+- **PCR selection** → SHA1, PCR 23
 - **pcrDigest** → matches `calcDigest`
 
 
@@ -208,7 +209,7 @@ We can observe, without making the AK persistent and restarting the Attestation 
 
 **Answer:**
 
-Extending `PCR23` with h.txt file's hash 
+Extending `PCR23` with h.txt file's hash
 ![](attachment/a0750e7484cbae42ef0387a43304575b.png)
 
 
@@ -271,10 +272,10 @@ This confirms the TPM enforces the **measured PCR state**and refuses access if t
 4. Demonstrate that you can unseal the the blob after restarting the TPM.
 ![](attachment/aac24748df8a13027f0e0df53062bac8.png)
 
-From the above screenshot, we can observe that I have restarted the TPM. I made sure that primary.ctx is already persistent. 
+From the above screenshot, we can observe that I have restarted the TPM. I made sure that primary.ctx is already persistent.
 - After restart, I set the PCR 23 values to sha1sum of h.txt
-- created new context from primary using seal.pub and seal.priv. 
-- Started the session 
+- created new context from primary using seal.pub and seal.priv.
+- Started the session
 - set the policy from the PCR 23
 - Unsealed the secret
 - Displayed the output.
