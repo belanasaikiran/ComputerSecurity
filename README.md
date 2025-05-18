@@ -19,7 +19,7 @@ CSE 5400 - Course focuses on Cryptography, Buffer Overflow, Memory Security, etc
 
 [Project 1](./Project1/Report.md): MD5 Collision Attack
 
-[Project 2](./Project2/Report.md): Buffer Overflow Attack
+[Project 2](./Project2/README.md): Buffer Overflow Attack
 
 [Project 3](./Project3/Report.md): Dirty COW Attack
 
